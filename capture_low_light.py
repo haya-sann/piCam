@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from picamera import PiCamera
 from time import sleep
 from fractions import Fraction
+from picamera import PiCamera
 
 # Set a framerate of 1/6fps, then set shutter
 # speed to 6s and ISO to 800
@@ -17,4 +17,4 @@ camera.exposure_mode = 'off'
 # Finally, capture an image with a 6s exposure. Due
 # to mode switching on the still port, this will take
 # longer than 6 seconds
-camera.capture('./Picture_test/dark_2.jpg')
+camera.capture('dark_2.jpg')
