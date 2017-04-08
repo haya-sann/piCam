@@ -17,4 +17,4 @@ camera.exposure_mode = 'off'
 # Finally, capture an image with a 6s exposure. Due
 # to mode switching on the still port, this will take
 # longer than 6 seconds
-camera.capture('dark_2.jpg')
+camera.capture('./cature/dark_2.jpg')
