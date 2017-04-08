@@ -8,9 +8,9 @@ import picamera
 import datetime
 import os
 from ftplib import FTP_TLS
-archive_server = 'chicappa.jp-npo-jspe'
-pw = '0h8k0o9s2e9k1a6w'
-userID = 'users497.lolipop.jp'
+archive_server = 'servername.jp-npo-jspe'
+pw = 'password for server'
+userID = 'userName.lolipop.jp'
 put_directory  = 'test_timelapse'
 
 now = datetime.datetime.now()
