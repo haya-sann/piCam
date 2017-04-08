@@ -7,7 +7,7 @@
 import io
 import socket
 import struct
-from PIL import Image
+import cv2
 
 # Start a socket listening for connections on 0.0.0.0:8000 (0.0.0.0 means
 # all interfaces)
@@ -31,7 +31,7 @@ try:
         # Rewind the stream, open it as an image with PIL and do some
         # processing on it
         image_stream.seek(0)
-        image = Image.open(image_stream)
+        image = cv2.VideoCapture(image_stream)
         print('Image is %dx%d' % image.size)
         image.verify()
         print('Image is verified')
