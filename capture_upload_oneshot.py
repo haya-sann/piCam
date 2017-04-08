@@ -31,7 +31,7 @@ picamera.capture(dir_path+'/'+file_name)
 print "Now start Upload."
 _ftp = FTP('192.168.12.151')
 _ftp.set_debuglevel(1) # デバッグログをリアルタイムで確認
-_ftp.login('ftpuser','oishii78')
+_ftp.login('ftpuser','password')
 
 _file = open(dir_path+'/'+file_name, 'rb') #target file
 _ftp.cwd('picture')
