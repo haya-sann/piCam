@@ -14,3 +14,5 @@ while num < 10:
         num += 1
 print "End"
 
+#これでは無限ループを抜けません
+
