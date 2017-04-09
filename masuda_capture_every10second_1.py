@@ -9,7 +9,7 @@ while num < 10:
     while True:
         todaydetail = datetime.datetime.today()
         if todaydetail.second%10 == 0:
-            os.system('python /home/pi/nas/datedjpeg.py')
+            os.system('python ./datedjpeg.py')
             print todaydetail.second
     num += 1
 print "End"
