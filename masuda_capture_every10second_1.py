@@ -11,6 +11,6 @@ while num < 10:
         if todaydetail.second%10 == 0:
             os.system('python ./datedjpeg.py')
             print todaydetail.second
-    num += 1
+        num += 1
 print "End"
 
