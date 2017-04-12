@@ -8,6 +8,7 @@ camera.vflip = True
 camera.hflip = False
 camera.brightness = 60
 camera.rotation = 0
+camera.start_preview()
 
 camera.capture('/home/pi/nas/photo/image_test_masuda_hflip.jpg')
 
