@@ -17,6 +17,7 @@ camera = picamera.PiCamera()
 camera.resolution = (1920, 1080)
 camera.vflip = True
 camera.hflip = False
+#camera.brightness = 60
 camera.rotation = 0
 camera.start_preview()
 
