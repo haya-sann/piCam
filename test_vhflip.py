@@ -19,7 +19,7 @@ camera.vflip = True
 camera.hflip = False
 camera.brightness = 60
 camera.rotation = 0
-# camera.start_preview()
+camera.start_preview()
 
 camera.capture(dir_path + '/'+file_name+'.jpg')
 
