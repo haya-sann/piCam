@@ -20,6 +20,7 @@ camera.hflip = False
 #camera.brightness = 60
 camera.rotation = 0
 camera.start_preview()
-
+# Camera warm-up time
+time.sleep(2)
 camera.capture(dir_path + '/'+file_name+'.jpg')
 
