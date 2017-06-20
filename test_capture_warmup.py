@@ -13,4 +13,3 @@ with picamera.PiCamera() as camera:
     # Camera warm-up time
     time.sleep(2)
     camera.capture('/home/pi/nas/201607311122.jpg')
-
