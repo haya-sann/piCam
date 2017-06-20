@@ -12,8 +12,10 @@ print "File Name will be  " + file_name + ".jpg"
 picamera = picamera.PiCamera()
 picamera.start_preview()
 # Camera warm-up time
-for i in range(0, 50, 5):
+for i in range(0, 30, 5):
     time.sleep(2)
     picamera.contrast = i
     picamera.annotate_text = file_name + " Camera Contrast is : " + str(picamera.contrast)
     picamera.capture_continuous(dir_path + file_name + '.jpg')
+picamera.close
+
