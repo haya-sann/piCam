@@ -5,7 +5,7 @@ import picamera
 import datetime
 
 now = datetime.datetime.now()
-dir_path = '/home/pi/nas/photo/testProgram/piCam/datedphoto/'
+dir_path = '/home/pi/nas/PICAM/dateFolder'
 file_name = now.strftime('%Y%m%d%H%M%S')
 print "File Name will be  " + file_name + ".jpg"
 picamera = picamera.PiCamera()
