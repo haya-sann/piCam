@@ -13,4 +13,5 @@ picamera = picamera.PiCamera()
 picamera.start_preview()
 # Camera warm-up time
 time.sleep(2)
+picamera.annotate_text = file_name
 picamera.capture(dir_path + file_name + '.jpg')
