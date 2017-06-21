@@ -19,3 +19,4 @@ for i in range(0, 30, 5):
     picamera.capture_continuous(dir_path + file_name + '.jpg')
 picamera.close()
 
+
